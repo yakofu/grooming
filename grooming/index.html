@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котики</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="header__body">
+          <div class="header__logo">
+            <a href="#"><img src="img/logo.png" alt=""></a>
+          </div>
+          <div class="header__burger">
+            <span></span>
+          </div>
+          <nav class="header__menu">
+            <ul class="menu">
+              <li class="menu__item active"><a href="#">О нас</a></li>
+              <li class="menu__item"><a href="#">Услуги и цены</a></li>
+              <li class="menu__item"><a href="#">Портфолио</a></li>
+              <li class="menu__item"><a href="#">Отзывы</a></li>
+              <li class="menu__item"><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <main class="main">
+      <section class="about">
+        <div class="about-wrapper">
+            <img src="img/about.png" alt="image" class="about-image">
+            <div class="about-text">
+              <h2 class="about-heading">Эксперт по уходу за вашим любимцем</h2>
+              <p class="about-paragraph">Мы работаем с 2007 года. Доброжелательная, уютная атмосфера отличает все салоны красоты для животных.</p>
+              <p class="about-paragraph">Лучший проффесионал Харькова, широчайший спектр услуг,специальная косметика и оборудование. Собственный бутик одежды, обуви и аксессуаров для ваших питомцев.</p>
+            </div>
+          </div>
+      </section>
+      <section class="services">
+        <div class="services_text-block">
+            <h2>Наши услуги</h2>
+            <p>Мы качественно и с любовью позаботимся о вашем питомце</p>
+        </div>
+        <div class="services_container">
+            <div class="services_list">
+                <div class="services_list-item">
+                    <a href="#">
+                        <img src="img/scissors.png" alt="">
+                    </a>
+                    <p>Стрижка</p>
+                </div>
+                <div class="services_list-item">
+                    <a href="#"><img src="img/sht.png"></a>
+                    <p>Тримминг</p>
+                </div>
+                <div class="services_list-item">
+                    <a href="#"><img src="img/shamp.png"></a>
+                    <p>Гигиенические процедуры</p>
+                </div>
+            </div>
+            <div class="services_image">
+                <img src="img/serv.png">
+            </div>
+        </div>
+      </section>
+      <!-- напиши секцию с классом reg. Созай два блока. В первом блоке, с левой стороны должно быть три параграфа, первый из них должен быть отцентрирован направо. После параграфов два поля  регистрации: "Имя" и "Телефон". После поля должна быть кнопка "Записаться" и под ней четыре кружка в ряд под ним. Во втором блоке должна быть картинка. Стили запиши в CSS-->
+      <section class="reg">
+        <div class="left-block">
+          <p class="right-align">Сделай<br> питомца<br> счастливым</p>
+          <p class="reg__text-first">Профессиональная стрижка<br> домашних животных</p>
+          <p class="reg__text-second">Оставьте нам заявку и гарантированно<br> получите 15% скидку!</p>
+          <input class="reg_input-text" type="text" name="name" placeholder="Имя">
+          <input class="reg_input-text" type="text" name="phone" placeholder="Телефон">
+          <button class="register-btn">Записаться</button>
+          <div class="circles">
+            <button class="circle active"></button>
+            <button class="circle"></button>
+            <button class="circle"></button>
+            <button class="circle"></button>
+          </div>
+          <div class="footer">
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-tiktok' ></i></a>
+            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+          </div>
+        </div>
+        <div class="right-block">
+          <img src="img/reg.png" alt="Картинка">
+        </div>
+      </section>
+    </main>
+    <script src="codes/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  </body>
+</html>
